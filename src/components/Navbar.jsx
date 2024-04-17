@@ -38,7 +38,7 @@ const Navbar = () => {
        </div>
 
        {/* Mobile Menu */}
-       <div className={ !nav ? 'hidden' : 'absolute top-0 right-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center '}>
+       <div className={ !nav ? 'hidden' : 'absolute top-0 right-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center overflow-hidden '}>
        <ul>
             <li className='py-5 text-3xl '>Home</li>
             <li className='py-5 text-3xl '>About</li>
